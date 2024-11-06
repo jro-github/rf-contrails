@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  #%L
+  RF-Contrails
+  %%
+  Copyright (C) 2024 Institute of Aerospace Engineering, TU Dresden
+  %%
+  Copyright 2,024 Institute of Aerospace Engineering, TU Dresden
+  
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+         http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+  #L%
+  -->
+
+<parameters solar="true">
+    <out_file_prefix>AccuracyTest</out_file_prefix>
+    <num_photons>100000</num_photons>
+    <num_sca>18</num_sca>
+    <num_ice>3.14E14</num_ice>
+    <distance>233.0</distance>
+    <bins_phi>180</bins_phi>
+    <bins_theta>90</bins_theta>
+    <resolution_s>2</resolution_s>
+    <g>0.718</g>
+    <absorption_factor>9.603E-4</absorption_factor>
+    <scattering_factor>1.979</scattering_factor>
+    <radius_incident>4612.34</radius_incident>
+    <radius_droplet>1.18E-5</radius_droplet>
+    <sigma_h>48.02259884679295</sigma_h>
+    <sigma_v>7.3246160308919945</sigma_v>
+    <sigma_s>0.002</sigma_s>
+</parameters>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameters>
+    <common>
+        <out_file_prefix>main</out_file_prefix>
+        <num_photons>1000000</num_photons>
+        <psi>180</psi>
+    </common>
+    <solar_diffuse>
+        <num_sca>18</num_sca>
+        <num_ice>3.14E14</num_ice>
+        <distance>233.0</distance>
+        <bins_phi>90</bins_phi>
+        <bins_theta>45</bins_theta>
+        <resolution_s>2</resolution_s>
+        <spectral_band_index>4</spectral_band_index>
+        <radius_incident>4612.34</radius_incident>
+        <radius_droplet>1.18E-5</radius_droplet>
+        <sigma_h>2306.17</sigma_h>
+        <sigma_v>53.65</sigma_v>
+        <sigma_s>0.002</sigma_s>
+    </solar_diffuse>
+    <terrestrial_diffuse>
+        <num_sca>18</num_sca>
+        <num_ice>3.14E14</num_ice>
+        <distance>233.0</distance>
+        <bins_phi>90</bins_phi>
+        <bins_theta>45</bins_theta>
+        <resolution_s>2</resolution_s>
+        <spectral_band_index>4</spectral_band_index>
+        <radius_incident>4612.34</radius_incident>
+        <radius_droplet>1.18E-5</radius_droplet>
+        <sigma_h>2306.17</sigma_h>
+        <sigma_v>53.65</sigma_v>
+    </terrestrial_diffuse>
+    <solar_direct>
+        <sza>0</sza>
+        <phi0>0</phi0>
+    </solar_direct>
+</parameters>
