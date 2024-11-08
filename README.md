@@ -2,7 +2,7 @@
 
 This project aims to simulate the transfer of radiation through a condensation trail in the atmosphere. Subsequently, the output can be combined with [Libradtran](https://www.libradtran.org) to compute the radiative forcing of the simulated contrail. In the following section, a brief description of the simulation and radiative forcing calculations are given. The usage of the program is described in [this section](#usage).
 
-The code is part of a habilitation thesis, which can be found [here](http://dx.doi.org/10.13140/RG.2.2.34522.75206) for more detailed descriptions and explanations of concrete formulas of the model.
+The code is part of a PhD thesis, which can be found [here](http://dx.doi.org/10.13140/RG.2.2.34522.75206) for more detailed descriptions and explanations of concrete formulas of the model.
 
 ## Simulation of radiation
 
